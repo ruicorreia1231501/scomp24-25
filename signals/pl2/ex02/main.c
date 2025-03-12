@@ -17,7 +17,7 @@ int main(void)
     memset(&act, 0, sizeof(struct sigaction));
 
     act.sa_handler = handler;
-    
+
     sigaction(SIGFPE, &act, NULL);
 
     int a, b;
