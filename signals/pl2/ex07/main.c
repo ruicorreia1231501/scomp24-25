@@ -29,7 +29,7 @@ void signal_handler(int signo)
 {
     if (signo == SIGUSR1)
     {
-        successful_searches++;
+        success++;
     }
 }
 
